@@ -26,16 +26,17 @@
         <li><a href="contact.html">contact</a></li>
         <li><a href="UserInteraction.html">UserInteraction</a></li>
   </nav>
-  <h2> Weight Converter</h2>
-  <p> Type a value in the pounds field to convert the value to Kilograms:</p>
-
-  <p>
-      <label>Pounds</label>
-      <input id="inputPounds" type="number" placeholder="Pounds" oninput=" weightConverter(this.value)"
-          onchange="weightConverter(this.value)">
-
-  </p>
-  <p>Kilograms: <span id="outputKilograms"></span></p>
+  <hr>
+  <h2>Convert Miles to Kilometers</h2>
+  <input id="milesLBL" type="number" value="0"> &nbsp; mi = &nbsp;
+  <span id="kilometersLBL">0 km</span>
+  <br>
+  <input  type="button" value="Convert" onclick="convert()">
+  &nbsp; You've made <span id="numOfConverts">0</span> conversion(s).
+  <br><br>
+  <div id = "qunit"></div>
+<div id = "qunit-fixture"></div>
+</div>
 
 <hr>
 </main>

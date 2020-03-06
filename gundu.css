@@ -1,5 +1,5 @@
 body {
-     background-color: mintcream;
+    background-color: cornsilk;
     padding-top: 5rem;
 }
 img{
@@ -169,3 +169,31 @@ th{
     display: table;
     clear: both;
   }
+  input[type="button"]:hover {
+    background-color:rgb(212, 188, 142);
+    align-items: flex-end;
+    margin-left: initial;
+    border-radius: border-box;
+    padding: 3px;
+}
+#milesLBL{
+  text-align: center;
+  justify-content: center;
+  padding: 2px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  align-items: center;
+}
+#kilometersLBL{
+  align-items: center;
+}
+label, input[type="text"],input[type="email"],textarea{
+  width: 50%;
+  padding: 15px 20px ;
+  border: none rgb( 65, 60, 70);
+  border-radius: 30px;
+  flex-basis: 70%;
+  box-sizing: border-box;
+  margin: 5px ;
+  resize: none;
+}
