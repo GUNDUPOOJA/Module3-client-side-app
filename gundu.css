@@ -53,14 +53,13 @@ input text{
     border: none;
 
 }
-footer {
+footer{
     position:relative;
-    flex-basis: 100%;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color:peru;
-    text-decoration-color:blueviolet;
+    text-decoration-color:rgb(236, 18, 18);
     text-align: center;
     line-height: 25px;
  }
