@@ -1,7 +1,5 @@
-function weightConverter(valNum) {
-    document.getElementById("outputKilograms").innerHTML = valNum / 2.2046;
 
-}
+
 function convert() {
     const mi = document.getElementById("milesLBL").value;
     const result = (mi * 1.609344) + " km"
