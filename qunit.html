@@ -17,23 +17,23 @@
                 return miles * 1.609344
             }
 
-            QUnit.test( "convert", function( assert ) {
+            QUnit.test( "Test", function( assert ) {
                var result = testConvert(60);
                assert.equal( result, "96.56064", "60 miles should be 96.56064 kilometers." );
             });
-            QUnit.test( "convert", function( assert ) {
+            QUnit.test( "Test", function( assert ) {
                var result = testConvert(100);
                assert.equal( result, "160.9344", "100 miles should be 160.9344 kilometers." );
             });
-            QUnit.test( "convert", function( assert ) {
+            QUnit.test( "Test", function( assert ) {
                var result = testConvert(999);
                assert.equal( result, "1607.734656", "99 miles should be 1607.734656 kilometers." );
             });
-            QUnit.test( "convert", function( assert ) {
+            QUnit.test( "Test", function( assert ) {
                var result = testConvert(0);
                assert.equal( result, "0", "0 miles should be 0 kilometers." );
             });
-           QUnit.test( "convert", function( assert ) {
+           QUnit.test( "Test", function( assert ) {
                var result = testConvert(1);
                assert.equal( result, "1.609344", "1 miles should be 1.609344 kilometers." );
             });
