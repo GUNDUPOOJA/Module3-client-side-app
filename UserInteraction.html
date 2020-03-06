@@ -10,6 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="gundu.css">
+  <script src="interaction.js"></script>
 </head>
 
 <body>
@@ -25,24 +26,23 @@
         <li><a href="contact.html">contact</a></li>
         <li><a href="UserInteraction.html">UserInteraction</a></li>
   </nav>
-  <div class="container">
-    <hr id="bar" />
-    <h1 id="contact_heading">Contact me!</h1>
-    <br>
-    <h4> Enter your First Name and Email</h4>
-    <form>
-      <label>Last Name : </label><input type="text" name="lastName">
-      <label>Email:</label> <input type="email" name="email">
-    </form>
-    <input type="submit" value="submit">
-    </main>
-    <br>
-    <br>
-    <br>
-    <br>
-    <footer>
-      <p> Created by Gundu pooja on 2/4/2020</p>
-    </footer>
+  <h2> Weight Converter</h2>
+  <p> Type a value in the pounds field to convert the value to Kilograms:</p>
+
+  <p>
+      <label>Pounds</label>
+      <input id="inputPounds" type="number" placeholder="Pounds" oninput=" weightConverter(this.value)"
+          onchange="weightConverter(this.value)">
+
+  </p>
+  <p>Kilograms: <span id="outputKilograms"></span></p>
+
+<hr>
+</main>
+
+        <footer>
+            <p> Created by Gundu pooja on 2/4/2020</p>
+          </footer>
   </body>
 
 </html>
